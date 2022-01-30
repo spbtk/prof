@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru"> <!-- lang - код языка, для оказания помощи поисковым системам (Yandex, Google и т.д.)-->
+<head>
+  <meta charset="utf-8"> <!-- кодировка -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport - контроль масштаба отображения страницы -->
+
+  <link href="../css.css" rel="stylesheet" type="text/css"> <!-- подлючение css -->
+  <script src="../js.js"></script> <!-- подключение javascript -->
+  <link rel="icon" href="../images/icon2.png" type="images/png"> <!-- иконка для страницы -->
+
+  <title>Игра «Металлорежущие станки»</title> <!-- название, заглавие страницы -->
+  <style type="text/css">
+  body {
+    background-image: url(../images/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  </style>
+</head>
+<body>
+<table class="tablep">
+  <colgroup>
+    <col span="1" style="background:#FFFA9D"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
+    <col span="4"style="background-color: #ddd;"><!-- Задаем цвет фона для следующего столбца таблицы-->
+  </colgroup>
+
+  <caption class="captionp">Игра на тему «Металлорежущие станки»</caption>
+
+  <tr>
+    <th class="thp">Техника безопасности</th>
+    <td class="tdp"><input type="button" name="btn1" class="kpigr kph2 kpa2" value="200" onclick="kpi1()"></td>
+    <td class="tdp"><input type="button" name="btn2" class="kpigr2 kph2 kpa2" value="400" onclick="kpi2()"></td>
+    <td class="tdp"><input type="button" name="btn3" class="kpigr3 kph2 kpa2" value="600" onclick="kpi3()"></td>
+    <td class="tdp"><input type="button" name="btn4" class="kpigr4 kph2 kpa2" value="800" onclick="kpi4()"></td>
+  </tr>
+
+  <tr>
+    <th class="thp">История металлообрабатывающей отрасли</th>
+    <td class="tdp"><input type="button" name="btn5" class="kpigr kph2 kpa2" value="200" onclick="kpi5()"></td>
+    <td class="tdp"><input type="button" name="btn6" class="kpigr2 kph2 kpa2" value="400" onclick="kpi6()"></td>
+    <td class="tdp"><input type="button" name="btn7" class="kpigr3 kph2 kpa2" value="600" onclick="kpi7()"></td>
+    <td class="tdp"><input type="button" name="btn8" class="kpigr4 kph2 kpa2" value="800" onclick="kpi8()"></td>
+  </tr>
+
+  <tr>
+    <th class="thp">Классификации станков</th>
+    <td class="tdp"><input type="button" name="btn9" class="kpigr kph2 kpa2" value="200" onclick="kpi9()"></td>
+    <td class="tdp"><input type="button" name="btn10" class="kpigr2 kph2 kpa2" value="400" onclick="kpi10()"></td>
+    <td class="tdp"><input type="button" name="btn11" class="kpigr3 kph2 kpa2" value="600" onclick="kpi11()"></td>
+    <td class="tdp"><input type="button" name="btn12" class="kpigr4 kph2 kpa2" value="800" onclick="kpi12()"></td>
+  </tr>
+
+  <tr>
+    <th class="thp">Устройство станка</th>
+    <td class="tdp"><input type="button" name="btn13" class="kpigr kph2 kpa2" value="200" onclick="kpi13()"></td>
+    <td class="tdp"><input type="button" name="btn14" class="kpigr2 kph2 kpa2" value="400" onclick="kpi14()"></td>
+    <td class="tdp"><input type="button" name="btn15" class="kpigr3 kph2 kpa2" value="600" onclick="kpi15()"></td>
+    <td class="tdp"><input type="button" name="btn16" class="kpigr4 kph2 kpa2" value="800" onclick="kpi16()"></td>
+  </tr>
+
+  <tr>
+    <th class="thp">Режущие инструменты</th>
+    <td class="tdp"><input type="button" name="btn17" class="kpigr kph2 kpa2" value="200" onclick="kpi17()"></td>
+    <td class="tdp"><input type="button" name="btn18" class="kpigr2 kph2 kpa2" value="400" onclick="kpi18()"></td>
+    <td class="tdp"><input type="button" name="btn19" class="kpigr3 kph2 kpa2" value="600" onclick="kpi19()"></td>
+    <td class="tdp"><input type="button" name="btn20" class="kpigr4 kph2 kpa2" value="800" onclick="kpi20()"></td>
+  </tr>
+</table>
+<input type="button" name="btnnaz" class="btnnaz kph3 kpa3" value="На главную" onclick="dom()">
+</body>
+</html>
