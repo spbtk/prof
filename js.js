@@ -1,3 +1,13 @@
+window.onload = opens;
+function opens(){
+	var bpr = document.getElementById('forms');
+	bpr.hidden = true;
+}
+function openform(){
+	var bpr = document.getElementById('forms');
+	bpr.hidden = false;
+	opf.parentNode.removeChild(opf)
+}
 function one()
 {
 	var kp1 = document.getElementById('kp1');
@@ -16,7 +26,7 @@ function three()
 function four()
 {
 	var kp1 = document.getElementById('kp4');
-	document.location.href = "справочник/four.html";
+	document.location.href = "справочник/karta.html";
 }
 function five()
 {
@@ -44,7 +54,6 @@ document.write
 }
 function kpi_1()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Нет</p><br> <input type="button" class="kpi_1" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -108,7 +117,6 @@ document.write
 }
 function kpi_2()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Нет</p><br><input type="button" class="kpi_2" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -121,7 +129,6 @@ document.write
 }
 function kpi_3()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: B. Пыль обрабатываемого материала</p><br> <div class="kpid"><input type="button" class="kpi_3" value="Вернуться" onclick="kpi_nazad()"></div> <style>.kpid{text-align: center;}p{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -134,7 +141,6 @@ document.write
 }
 function kpi_4()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Не более 42 B</p><br><input type="button" class="kpi_4" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -147,7 +153,6 @@ document.write
 }
 function kpi_5()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Токарные <br><img src="../images/tokar.jpg" width="600px"/></p><input type="button" class="kpi_5" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -159,7 +164,6 @@ document.write
 }
 function kpi_6()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Нартов <br><img src="../images/nartov.jpg" width="200px"/></p><input type="button" class="kpi_6" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -171,7 +175,6 @@ document.write
 }
 function kpi_7()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Жак де Вокансон <br><img src="../images/voksan.png" width="200px"/></p><input type="button" class="kpi_7" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -183,7 +186,6 @@ document.write
 }
 function kpi_8()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Фрезерный <br><img src="../images/frez.png" width="300px"/></p><input type="button" class="kpi_8" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -195,7 +197,6 @@ document.write
 }
 function kpi_9()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: 5</p><br><input type="button" class="kpi_9" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -207,7 +208,6 @@ document.write
 }
 function kpi_10()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: B. Пистолетные</p><br> <div class="kpid"><input type="button" class="kpi_10" value="Вернуться" onclick="kpi_nazad()"></div> <style>.kpid{text-align: center;}p{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -220,7 +220,6 @@ document.write
 }
 function kpi_11()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Вертикально-фрезерный</p><br><input type="button" class="kpi_11" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -232,7 +231,6 @@ document.write
 }
 function kpi_12()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Токарно-револьверный станок<br><img src="../images/tok-rev.png" width="300px"/></p><input type="button" class="kpi_12" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -244,7 +242,6 @@ document.write
 }
 function kpi_13()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Нет</p><br><input type="button" class="kpi_13" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -256,7 +253,6 @@ document.write
 }
 function kpi_14()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Шпиндель<br><img src="../images/hpindel.png" width="300px"/></p><input type="button" class="kpi_14" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -268,7 +264,6 @@ document.write
 }
 function kpi_15()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Гитара<br><img src="../images/gitara.png" width="400px"/></p><input type="button" class="kpi_15" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -280,7 +275,6 @@ document.write
 }
 function kpi_16()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Коробка подач</p><br><input type="button" class="kpi_16" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -292,7 +286,6 @@ document.write
 }
 function kpi_17()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Проходные, расточные, отрезные, резьбовые и фасонные</p><br><input type="button" class="kpi_17" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -304,7 +297,6 @@ document.write
 }
 function kpi_18()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Левые, правые, упорные и наклонные</p><br><input type="button" class="kpi_18" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -316,7 +308,6 @@ document.write
 }
 function kpi_19()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Чашечные, тарельчатые и плоские</p><br><input type="button" class="kpi_19" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');
@@ -328,7 +319,6 @@ document.write
 }
 function kpi_20()
 {
-	document.getElementById('tr').disabled = true;
 	tr.parentNode.removeChild(tr)
 	document.write
 	('<p>Ответ: Сверло, зенкер, развёртка</p><br><input type="button" class="kpi_20" value="Вернуться" onclick="kpi_nazad()"> <style>body{font-size: 50px; outline: none; text-align: center;}</style>');

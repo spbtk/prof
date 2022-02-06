@@ -50,11 +50,15 @@
     position: relative;
     left: 16px;
     top: 10px; 
-    border-color: rgb(190,190,190);
-    border-style: solid dotted none dotted;
-    width: 1000px;
+    border-color: rgb(190,190,190);/* Задание цвета десятичным кодом */
+    border-style: solid  ;
+        width: 1000px;
     background: #fff; /* Цвет фона */
-    border-radius: 10px; /* Радиус скругления */
+    border-radius: 15px; /* Радиус скругления */
+    }
+.chpy {
+    font-size: 30px;
+    background: rgb(190,190,190); /* Цвет фона */
     }
 
     summary
@@ -69,15 +73,36 @@
     font-size: 22px;
     font-family: Times New Roman;
     }
-
+input.btnnaz
+{
+    position: relative;
+    top: -10px;
+    margin-left: 4em;
+    font-size: 30px;
+    background: #A9A9A9;
+    border-radius: 10px;
+    border: 4px solid #A1A1A0;
+    padding: 0.5em 2em; /* отступ от текста */
+    color: black; /* цвет текста */
+}
+input.kph:hover
+{
+    background: #C0C0C0; 
+    color: black;
+} /* при наведении*/
+input.kpa:active
+{
+    background: #696969;
+    color: black;
+} /* при нажатии */
 	</style>
 	</head>
 <body>
 <div class="img_1"><img src="../images/stanok.png" width="600px"/></div>
 <div class="rama">
 <ol>
-<details>
-<summary>Профессия «Оператор станка с ЧПУ»</summary>
+<details >
+<summary  class="chpy" >Профессия «Оператор станка с ЧПУ»</summary>
 <li>   Довольно востребованная и хорошо оплачиваемая профессия.<br>
 Люди со специальностью наладчик-оператор нужны на машиностроительных фабриках и заводах,
 которые пользуются современными станками.<br> Так как все больше оборудования автоматизируют, растет и спрос на эту профессию.
@@ -317,8 +342,6 @@
 <li>Компании предпочитают брать тех, у кого есть опыт работы и умение быстро реагировать на непредвиденные ситуации. Если специалист рассчитывает на хорошую зарплату, ему надо постоянно усваивать новые знания, повышать квалификацию путем прохождения специальных курсов. С другой стороны, если научиться всем азам производства деталей с применением ЧПУ, в будущем вас охотно будут брать на любую работу вне зависимости от наименования производственного предприятия и направлений ее деятельности.</li>
 </details></ol>
 </div>
-    <a href="../index.html">
-        <h1 class="gl2">Вернуться назад</h1>
-    </a>
+<br><br><input type="button" name="btnnaz" class="btnnaz kph kpa" value="На главную" onclick="dom()">
 </body>
 </html>
